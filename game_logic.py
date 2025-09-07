@@ -4,7 +4,7 @@ def get_choice():
 
     move_choices = ["rock","paper","scissors"]
     computer_move = random.choice(move_choices)
-    print(computer_move)
+    
 
     invalid_choice = True
 
@@ -53,3 +53,4 @@ def get_winner(player_move, computer_move):
     
     else:
         return "Computer Wins"
+
